@@ -21,13 +21,13 @@ public class LibraryAppMain {
 	}
 	private void runapp() {
 		try {
-		Author author1=new Author("prakash");
+		Author author1=new Author("Anuj");
 		service2.add(author1);
-		Author author2=new Author("Lokesh");
+		Author author2=new Author("Ankit");
 		service2.add(author2);
-		Author author3=new Author("karthk");
+		Author author3=new Author("Ayushi");
 		service2.add(author3);
-		Author author4=new Author("arul");
+		Author author4=new Author("Muskan ");
 		service2.add(author4);
 		Book book1=new Book("java",600,author1);
 		service.add(book1);
@@ -37,7 +37,7 @@ public class LibraryAppMain {
 		service.add(book3);
 		Book book4=new Book("C++",200,author3);
 		service.add(book4);
-		Book book5=new Book("Swift",250,author4);
+		Book book5=new Book("Ruby",250,author4);
 		service.add(book5);
 		Book fetched=service.findById("2");
 		service.updateCost("1", 800);
